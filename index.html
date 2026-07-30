@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js" ></script>
-</body>
+    <section class="board">
+        <div class="button-container">
+            <button class="button" id="btn-rock">Rock</button>
+            <button class="button" id="btn-paper">Paper</button>
+            <button class="button" id="btn-scissors">Scissors</button>
+        </div>
+        <div class="score-board">
+            <div class = "human-score">
+                <div id="score-human">0</div>
+                <div>Human</div>
+            </div>
+            <div class = "computer-score">
+                <div id="score-computer">0</div>
+                <div>Computer</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" ></script>
 </html>
